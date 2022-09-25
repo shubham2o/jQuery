@@ -139,3 +139,8 @@ $("button").on("click", function() {
             opacity: 0.5
         });
 })
+
+// 30. Selects all the elements
+// $("*");
+
+// 31.
