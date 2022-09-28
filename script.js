@@ -141,6 +141,61 @@ $("button").on("click", function() {
 })
 
 // 30. Selects all the elements
-// $("*");
+// $("button").click(function() {
+//     $("*").hide();
+// });
 
-// 31.
+// 31. Selects the current HTML element
+// $("button").click(function() {
+//     $(this).hide();
+// });
+
+// 32. Selects all <p> elements with class = "intro"
+// $("button").click(function() {
+//     $("p.intro").hide();
+// });
+
+// 33. Selects the first <p> element
+// $("button").click(function() {
+//     $("p:first").hide();
+// });
+
+// 34. Selects the first <li> element of the first <ul>
+// $("button").click(function() {
+//     $("ul li:first").hide();
+// });
+
+// 35. Selects the first <li> element of every <ul>
+// $("button").click(function() {
+//     $("ul li:first-child").hide();
+// });
+
+// 36. Selects all elements with an href attribute
+// $("button").click(function() {
+//     $("[href]").hide();
+// });
+
+// 37. Selects all <a> elements with a target attribute value equal to "_blank"
+// $("button").click(function() {
+//     $("a[target='_blank']").hide();
+// });
+
+// 38. Selects all <a> elements with a target attribute value NOT equal to "_blank"
+// $("button").click(function() {
+//     $("a[target!='_blank']").hide();
+// });
+
+// 39. Selects all <button> elements and <input> elements of type = "button"
+// $("button").click(function() {
+//     $(":button").hide();
+// });
+
+// 40. Selects all even <tr> elements
+// $("button").click(function() {
+//     $("tr:even").hide();
+// });
+
+// 41. Selects all odd <tr> elements
+// $("button").click(function() {
+//     $("tr:odd").hide();
+// });
