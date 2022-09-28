@@ -199,3 +199,40 @@ $("button").on("click", function() {
 // $("button").click(function() {
 //     $("tr:odd").hide();
 // });
+
+// Commonly Used jQuery Event Methods
+/* 42. dblclick()
+The dblclick() method attaches an event handler function to an HTML element.
+The function is executed when the user double-clicks on the HTML element: */
+$("button").dblclick(function() {
+    $(this).hide();
+});
+
+/* 43. focus() 
+The focus() method attaches an event handler function to an HTML form field.
+The function is executed when the form field gets focus: */
+$("input").focus(function() {
+    $(this).css("background-color", "yellow");
+});
+
+/* 44. blur()
+The blur() method attaches an event handler function to an HTML form field.
+The function is executed when the form field loses focus: */
+$("input").blur(function() {
+    $(this).css("background-color", "green")
+});
+
+/* 45. The on() Method
+The on() method attaches one or more event handlers for the selected elements.
+Attach multiple event handlers to a <p> element: */
+$("p").on({
+    mouseenter: function() {
+        $(this).css("background-color", "coral");
+    },
+    mouseleave: function() {
+        $(this).css("background-color", "yellow");
+    },
+    click: function() {
+        $(this).css("background-color", "purple");
+    }
+});
